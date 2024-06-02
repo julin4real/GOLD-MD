@@ -1,14 +1,14 @@
 
 /** 
 
-             • GOLD MD WHATSAPP BOT •
+             • jul4rl instagram MD WHATSAPP BOT •
 
   𝗖𝗼𝗽𝘆𝗿𝗶𝗴𝗵𝘁 (𝗖) 2024.
  𝗟𝗶𝗰𝗲𝗻𝘀𝗲𝗱 𝘂𝗻𝗱𝗲𝗿 𝘁𝗵𝗲  𝗠𝗜𝗧 𝗟𝗶𝗰𝗲𝗻𝘀𝗲;
  𝗬𝗼𝘂 𝗺𝗮𝘆 𝗻𝗼𝘁 𝘂𝘀𝗲 𝘁𝗵𝗶𝘀 𝗳𝗶𝗹𝗲 𝗲𝘅𝗰𝗲𝗽𝘁 𝗶𝗻 𝗰𝗼𝗺𝗽𝗹𝗶𝗮𝗻𝗰𝗲 𝘄𝗶𝘁𝗵 𝘁𝗵𝗲 𝗟𝗶𝗰𝗲𝗻𝘀𝗲.
  𝗜𝘁 𝗶𝘀 𝘀𝘂𝗽𝗽𝗹𝗶𝗲𝗱 𝗶𝗻 𝘁𝗵𝗲 𝗵𝗼𝗽𝗲 𝘁𝗵𝗮𝘁 𝗶𝘁 𝗺𝗮𝘆 𝗯𝗲 𝘂𝘀𝗲𝗳𝘂𝗹.
  * @𝗽𝗿𝗼𝗷𝗲𝗰𝘁_𝗻𝗮𝗺𝗲 : GOLD 𝗠𝗗, 𝗮 𝘀𝗶𝗺𝗽𝗹𝗲 𝗮𝗻𝗱 𝗲𝗮𝘀𝘆 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 𝘂𝘀𝗲𝗿 𝗯𝗼𝘁 
- * @𝗼𝘄𝗻𝗲𝗿: UMAR 
+ * @𝗼𝘄𝗻𝗲𝗿: jul4rl
  
  **/
 
@@ -25,7 +25,7 @@ france({ nomCom: "user", categorie: "General", reaction: "🔰" }, async (dest, 
   const thsudo = await isSudoTableNotEmpty()
 
   if (thsudo) {
-     let msg = `*GOLD-MD USER*\n
+     let msg = `*jul4rl-MD USER*\n
      *🔥 OWNER NUMBER 🔥*\n :
 - 🔰 @${conf.NUMERO_OWNER}
 
@@ -72,11 +72,11 @@ france({ nomCom: "owner", categorie: "General", reaction: "🔰" }, async (dest,
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: "|UMAR|", numero: "233201817959" },
+      { nom: "|jul4rl|", numero: "18128129489" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
-    let message = "🔰 GOLD-MD OWNER 🔰:\n\n";
+    let message = "🔰 jul4rl-MD OWNER 🔰:\n\n";
     for (const dev of devs) {
       message += `----------------\n• ${dev.nom} : https://wa.me/${dev.numero}\n`;
     }
@@ -110,7 +110,7 @@ else {
 france({ nomCom: "help", categorie: "General" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
-  repondre("_APKO HELP CHAHYE MERA GOLD-MD KA OFFICIAL WHATSAPP CHANNEL FOLLOW KARO_")
-  await zk.sendMessage(auteurMessage,{text : `https://whatsapp.com/channel/0029VabdDuf7DAWylTkTZa0m`},{quoted :ms})
+  repondre("_APKO HELP CHAHYE MERA jul4rl-MD KA OFFICIAL WHATSAPP CHANNEL FOLLOW KARO_")
+  await zk.sendMessage(auteurMessage,{text : `https://youtube.com/@anitum`},{quoted :ms})
 
 })
